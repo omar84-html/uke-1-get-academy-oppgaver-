@@ -1,0 +1,20 @@
+
+body{
+    background-color:rgba(230, 230, 20, 0.579);
+    font-family: sans-serif;
+    text-align: left;
+    padding-top: 50px;
+}
+
+button{
+    color: rgb(23, 22, 22);
+}
+
+li{
+    color: red;
+    text-align: left;
+}
+
+ul{
+    text-align: center;
+}

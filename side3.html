@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>intrudkjson om meg selv</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    <h1>litt om meg</h1>
+
+    <p>
+      hei jeg heter omar, jeg er ektiv gutt som liker å trene og kode i
+      fritiden.
+    </p>
+
+    <h1>hobbyer jeg gjør</h1>
+
+    <ul>
+      <li class="tekst">trene</li>
+      <li class="tekst">kode</li>
+      <li class="tekst">være med venner</li>
+    </ul>
+
+    <button onclick="changetext()">Endre farge på teksten</button>
+    <script>
+      function changetext() {
+        const tekster = document.querySelectorAll(".tekst");
+
+        tekster.forEach((t) => {
+          if (t.style.color === "red") {
+            t.style.color = "black";
+          } else {
+            t.style.color = "red";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
